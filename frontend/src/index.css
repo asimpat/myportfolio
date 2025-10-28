@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@400;600&display=swap');
+@import "animate.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global font setup */
+:root {
+  font-family: 'Julius Sans One', sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
