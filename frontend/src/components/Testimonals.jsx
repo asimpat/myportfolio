@@ -25,6 +25,7 @@ const testimonials = [
     quote:
       "I appreciate Asim's communication and dedication. He brings creativity and professionalism to every project he works on.",
   },
+  
 ];
 
 const Testimonials = () => {
