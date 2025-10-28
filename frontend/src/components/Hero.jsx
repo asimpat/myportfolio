@@ -82,7 +82,7 @@ const Hero = () => {
               problem-solving. I love turning ideas into functional, elegant
               digital solutions.
             </p>
-
+ 
             {/* Buttons */}
             <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start pt-4 font-raleway">
               <a href="#contact">
