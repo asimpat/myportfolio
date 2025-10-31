@@ -1,5 +1,6 @@
 import hiddenImage from "../assets/img/hiddenImage.png";
 import portImage from "../assets/img/portImage.png";
+import vendrlyImage from "../assets/img/vendrly.png";
 
 
 
@@ -28,7 +29,7 @@ export const projects = [
     imgUrl: null,
     websiteUrl: null,
     githubUrl: "https://github.com/asimpat/Reciepe-API",
-    docsUrl: "https://recipe-api.com/swagger",
+    docsUrl: "#",
   },
   {
     id: 2,
@@ -37,8 +38,8 @@ export const projects = [
       "Developed full-featured e-commerce backend with Stripe payment integration, inventory management, and order processing pipeline.",
     imgUrl: null, // API-Only project, will show placeholder
     websiteUrl: null,
-    githubUrl: "https://github.com/asimpat/ecommerce-api-repo", // Placeholder
-    docsUrl: "https://api.ecommerce-site.com/docs",
+    githubUrl: "https://github.com/asimpat/Shoppit",
+    docsUrl: "#",
   },
   {
     id: 3,
@@ -60,6 +61,16 @@ export const projects = [
     githubUrl: "https://github.com/asimpat/portfolio-frontend",
     docsUrl: null,
   },
+  {
+    id: 5,
+    title: "Vendrly",
+    description:
+      "A website where vendors book events. Users can find vendors, hire caterers, and book more events.",
+    imgUrl: vendrlyImage,
+    websiteUrl: "https://www.vendrly.com/",
+    githubUrl: "#",
+    docsUrl: null,
+  },
 ];
 
 // --- Updated EXPERIENCES Data ---
@@ -73,8 +84,13 @@ export const experiences = [
     skills_list: [
       "React",
       "Tailwind CSS",
-      "Frontend Integration",
+      // "Frontend Integration",
       "Collaboration",
+      "Node.js",
+      "API Integration",
+      "Git/GitHub",
+      "MongoDB",
+      "Express.js",
     ],
   },
   {
@@ -88,6 +104,7 @@ export const experiences = [
       "Next.js",
       "React",
       "Node.js",
+      "PHP",
       "Optimization",
       "Git/Jira",
     ],
@@ -102,7 +119,7 @@ export const experiences = [
       "Backend Development",
       "File Management",
       "Database Optimization",
-      "Data Integrity",
+      // "Data Integrity",
       "Server-side Logic",
     ],
   },
